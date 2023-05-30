@@ -55,3 +55,12 @@
 * Avoid Encodings
     - Encoding type or scope information into names simply adds an extra burden of deciphering
     - Encoded names are seldom pronounceable and are easy to mis-type.
+
+* Hungarian Notation
+    Hungarian notation is an identifier naming convention in computer programming in which the name of a variable or function
+    indicates its intention or kind, or in some dialects, its type.
+
+* Member Prefixes
+    - don’t need to prefix member variables with m_ anymore
+    - Your classes and functions should be small enough that you dont need them.
+    - you should be using an editing environment that highlights or colorizes members to make them distinct
