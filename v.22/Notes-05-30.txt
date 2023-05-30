@@ -1,0 +1,2 @@
+- lära sig från andras kod är bättre än egna misstag
+- Refactoring is about modifying code to make it cleaner.
