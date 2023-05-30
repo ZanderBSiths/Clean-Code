@@ -18,4 +18,40 @@
     - Spelling similar concepts similarly is information. Using incosisten spellings is disinformation
 
 * Make meaningfil distinctions
+    - If names must be different, then they should also mean something different.
+    - Number-series naming (a1, a2, .. aN) is the opposite of intentional naming. they are noninformative
+
+    - How are the programmers in this project supposed to know which of these functions to call?
+    getActiveAccount();
+    getActiveAccounts();
+    getActiveAccountInfo();
     
+* Use Pronounceable Names
+    - If you can’t pronounce it, you can’t discuss it without sounding like an idiot
+
+    Bad:
+        class DtaRcrd102 {
+            private Date genymdhms; 
+            private Date modymdhms;
+            private final String pszqint = "102";
+            /* ... */
+        };
+
+    Good:
+        class Customer {
+            private Date generationTimestamp; 
+            private Date modificationTimestamp;;
+            private final String recordId = "102";
+            /* ... */
+        };
+    Intelligent conversation is now possible
+
+* Use Searchable Name
+    - Single-letter names and numeric constants have a particular problem in that they are not easy to locate across a body of text
+    -  longer names trump shorter names, and any searchable name trumps a constant in code
+    -  personal preference is that single-letter names can ONLY be used as local variables inside short methods. 
+    The length of a name should correspond to the size of its scope
+
+* Avoid Encodings
+    - Encoding type or scope information into names simply adds an extra burden of deciphering
+    - Encoded names are seldom pronounceable and are easy to mis-type.
