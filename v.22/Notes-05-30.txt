@@ -1,2 +1,37 @@
-- lära sig från andras kod är bättre än egna misstag
-- Refactoring is about modifying code to make it cleaner.
+- lära sig från andras kod är bättre än egna misstag(Lära sig från misstag är fortfarande bra)
+- Refactoring is about modifying code to make it cleaner without changing the functional behaviour.
+- Refactoring is not about fixing bugs
+
+* practical structure of the cleaning craftsmanship
+
+    * Names
+        - should be clear, readable, searchable, non-cute, non-pun, pronounceable and distinguishable. don’t overspecify!
+
+    * Comments
+        - Writing code that is so clear that comments are totally unnecessary seems to be the ultimate goal
+        - Not all comments are evil:
+
+    * Formatting
+        - Don’t invent your own formatting
+
+    * Methods/functions
+        - A method should do one thing and do it well.
+        - The method name should describe what it does, not how.
+        - If switch is appropriate, hide it in a single method
+        - Methods with no parameters are ideal
+        - Methods with three or more parameters are bad
+        - Methods that modify its arguments are almost always a pitfall
+        * classes
+            - SRP – “Single Responsibility Principle”
+            - “High cohesion – low coupling” 
+            - It has as little as possible to do with the rest of the world – low coupling
+            - Calling a constructor with new may not always be the best option
+
+    * Error "handling"
+        - Exceptions do not handle errors
+        - Checked exceptions” is a feature in Java
+        - Don’t use null
+        - Exceptions still are a good way to report errors
+
+
+
