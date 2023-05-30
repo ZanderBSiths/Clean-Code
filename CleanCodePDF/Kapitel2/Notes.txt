@@ -1,5 +1,5 @@
 * Use intention-revealing names
-    The name of a variable, function, or class, should answer all the big questions. It
+    - The name of a variable, function, or class, should answer all the big questions. It
     should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent. 
 
     bad example:
@@ -7,3 +7,15 @@
 
     good example:
         int elapsedTimeInDays
+    
+    - Choosing names that reveal intent can make it much easier to understand and change code
+
+* Avoid Disinformation
+    - We should avoid words whose entrenched meanings vary from our intended meaning. For example,hp, aix, and sco
+    - Do not refer to a grouping of accounts as an accountList unless it’s actually a List.
+        * If the container holding the accounts is not actually a List, it may lead to false conclusions.
+        * So accountGroup or bunchOfAccounts or just plain accounts would be better
+    - Spelling similar concepts similarly is information. Using incosisten spellings is disinformation
+
+* Make meaningfil distinctions
+    
