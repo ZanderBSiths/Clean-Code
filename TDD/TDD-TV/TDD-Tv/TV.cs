@@ -8,6 +8,14 @@ namespace TDDProject
 {
 	public class TV
 	{
-		public int number = 0;
-	}
+        public IMediaDevice mediaDevice;
+        public IUI ui;
+
+        public TV(IMediaDevice mediaDevice)
+        {
+                this.mediaDevice = mediaDevice;
+        }
+
+        public void 
+    }
 }
