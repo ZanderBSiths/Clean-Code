@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD-Tv", "TDD-Tv\TDD-Tv.csproj", "{B75227A6-1609-4E96-ADD7-40637EED88E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDProject", "TDD-Tv\TDDProject.csproj", "{B75227A6-1609-4E96-ADD7-40637EED88E0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TV-Tests", "TV-Tests\TV-Tests.csproj", "{67FD8FFE-C5DD-4C21-B05E-CEBF88CDFDDD}"
 EndProject
